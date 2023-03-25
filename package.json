@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx newman run ./test/contacts.json -e ./test/env/localhost.json"
   },
   "repository": {
     "type": "git",
