@@ -1,5 +1,5 @@
-import express  from "express";
-import cors  from "cors";
+import express from "express";
+import cors from "cors";
 
 import { loadBackend } from "./backend/index.js";
 import { handler } from "./frontend/build/handler.js";
