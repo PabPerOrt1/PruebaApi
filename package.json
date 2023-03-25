@@ -1,0 +1,26 @@
+{
+  "name": "sos2223-ppoprueba",
+  "version": "0.0.0",
+  "description": "Duh",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabPerOrt1/PruebaApi.git"
+  },
+  "author": "kopr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabPerOrt1/PruebaApi/issues"
+  },
+  "homepage": "https://github.com/PabPerOrt1/PruebaApi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nedb": "^1.8.0"
+  }
+}
